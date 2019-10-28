@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
         word = findViewById(R.id.Word);
         wordRev = findViewById(R.id.reverse);
         Log.i("My Tag","Here is a Message For u ");
+        Log.i("My secd  Tag","Here is a secd Message For u ");
+
 
     }
     public void reverseWord(View v){
