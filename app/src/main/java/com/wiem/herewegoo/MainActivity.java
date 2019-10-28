@@ -3,6 +3,7 @@ package com.wiem.herewegoo;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -19,24 +20,11 @@ public class MainActivity extends AppCompatActivity {
        setContentView(R.layout.activity_main);
         word = findViewById(R.id.Word);
         wordRev = findViewById(R.id.reverse);
-//        int[] myIntegerArray = {1,2,3,4,5,6,7,8,9};
-//
-//        Log.i("Tag",myIntegerArray[myIntegerArray.length - 1] + "");
-
-
+        Log.i("My Tag","Here is a Message For u ");
 
     }
     public void reverseWord(View v){
 
-//        int nbAge = Integer.parseInt(age.getText().toString());
-//        if(age.getText().toString() == ""  ){
-//            Toast.makeText(this,"you need to enter your age please !! " , Toast.LENGTH_SHORT).show();
-//
-//        } else if( nbAge < 18 ) {
-//            qualified.setText("Congratulation , You'r qualified !!");
-//        }else {
-//            qualified.setText("Bad news , u're not qualified!!");
-//        }
         String result = "";
         String wordI = word.getText().toString();
         char[] ch = wordI.toCharArray();
